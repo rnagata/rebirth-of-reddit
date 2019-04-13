@@ -1,2 +1,20 @@
+#post-container {
+  background: white; }
+
+#title {
+  background: white; }
+
 body {
-  background: green; }
+  margin: 0px;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover; }
+
+#banner {
+  background: white;
+  padding-top: 5px; }
+
+#logo {
+  content: url("../assets/logo.svg"); }
+
+#nav {
+  height: 100px; }
