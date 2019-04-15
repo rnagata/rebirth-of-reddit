@@ -1,0 +1,74 @@
+@import 'partials/_post';
+@import 'partials/_button';
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300,400');
+
+body{
+  margin: 0px;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+
+#banner{
+  background: white;
+  background-image: url("../assets/header_bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+#logo{
+  display: inline-block;
+  content:url("../assets/logo.svg");
+}
+
+#nav{
+  display: flex;
+  background: #383838;
+  justify-content: center;
+}
+
+#posts{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#social{
+  text-align: center;
+  vertical-align: middle;
+  height: 55px;
+  background-color: #383838;
+  padding-top: 15px;
+}
+
+#facebook{
+  display: inline-block;
+  content: url("../assets/facebook_grey.svg");
+}
+
+#instagram{
+  display: inline-block;
+  content: url("../assets/instagram_grey.svg");
+}
+
+@media screen and (max-width:945px){
+  #posts{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:721px){
+  #banner{
+    text-align: left;
+    background-image: none;
+  }
+}
+
+@media screen and (max-width:484px){
+  #social{
+    display: none;
+  }
+}

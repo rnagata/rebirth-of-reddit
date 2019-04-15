@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Lato:300,400");
+.post {
+  background: white;
+  font-size: 17px;
+  padding: 22px;
+  margin: 14px;
+  width: 400px; }
+  .post .picture {
+    width: 100%; }
+  .post .subtitle {
+    color: gray;
+    margin: 5px 0px 10px 0px; }
+  .post .text-snippet {
+    margin: 0px; }
+  .post h4 {
+    font-family: 'Oswald';
+    font-size: 26px;
+    margin: 0px;
+    line-height: 1.3em;
+    max-height: 2.6em;
+    overflow: hidden; }
+  .post p {
+    font-family: 'Lato';
+    font-weight: 300;
+    margin: 0px 0px 10px 0px;
+    line-height: 1.3em;
+    max-height: 5.2em;
+    overflow: hidden; }
+  @media screen and (max-width: 945px) {
+    .post {
+      width: 40%; } }
+  @media screen and (max-width: 721px) {
+    .post {
+      width: 90%;
+      max-width: 90%; } }
+  @media screen and (max-width: 484px) {
+    .post p {
+      max-height: 1.3em; } }
+
+.nav-button {
+  background-color: transparent;
+  width: 25%;
+  height: 55px;
+  font-family: 'Oswald';
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+  border-bottom: none;
+  border-left: none;
+  border-top: none; }
+
+#random-button {
+  border-right: none; }
+
+body {
+  margin: 0px;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover; }
+
+#banner {
+  background: white;
+  background-image: url("../assets/header_bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5px;
+  padding-left: 5px;
+  text-align: center; }
+
+#logo {
+  display: inline-block;
+  content: url("../assets/logo.svg"); }
+
+#nav {
+  display: flex;
+  background: #383838;
+  justify-content: center; }
+
+#posts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+#social {
+  text-align: center;
+  vertical-align: middle;
+  height: 55px;
+  background-color: #383838;
+  padding-top: 15px; }
+
+#facebook {
+  display: inline-block;
+  content: url("../assets/facebook_grey.svg"); }
+
+#instagram {
+  display: inline-block;
+  content: url("../assets/instagram_grey.svg"); }
+
+@media screen and (max-width: 945px) {
+  #posts {
+    justify-content: center; } }
+
+@media screen and (max-width: 721px) {
+  #banner {
+    text-align: left;
+    background-image: none; } }
+
+@media screen and (max-width: 484px) {
+  #social {
+    display: none; } }

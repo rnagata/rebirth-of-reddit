@@ -1,0 +1,54 @@
+.post{
+  background: white;
+  font-size: 17px;
+  padding: 22px;
+  margin: 14px;
+  width: 400px;
+
+  .picture{ 
+    width: 100%;
+  }
+
+  .subtitle{
+    color: gray;
+    margin: 5px 0px 10px 0px;
+  }
+  
+  .text-snippet{
+    margin: 0px;
+  }
+  
+  h4{
+    font-family: 'Oswald';
+    font-size: 26px;
+    margin: 0px;
+    line-height: 1.3em;
+    max-height: 2.6em;
+    overflow: hidden;
+  }
+
+  p{
+    font-family: 'Lato';
+    font-weight: 300;
+    margin: 0px 0px 10px 0px;
+    line-height: 1.3em;
+    max-height: 5.2em;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width:945px){
+    width: 40%;
+  }
+
+  @media screen and (max-width:721px){
+    width: 90%;
+    max-width: 90%;
+  }
+
+  @media screen and (max-width:484px){
+    p{
+      max-height: 1.3em;
+    }
+  }
+}
+
